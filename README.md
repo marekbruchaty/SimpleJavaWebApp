@@ -59,14 +59,23 @@ First we need to select all artifacts that will be used to create the .war file 
 6. Make sure that the "Include in project build" checkbox for our archive is selected
 7. Click "Apply" and "Done"
 
+### Deploy the WAR file to Tomcat
+1. Build the project from IntelliJ
+2. Navigate to the directory `YourProject/out/artifacts/YourProject_war`
+3. Copy the war file to the `Tomcat/webapps` directory
+
+### Start the Tomcat server
+1. Navigate to `Tomcat/bin`
+2. Execute the `startup.sh` script for Mac or Linux or `startup.bat` script for Windows
+
 ### Create new servlet
 
-## Create servlet class file
+#### Create servlet class file
 1. Navigate to the `src` folder in the "Project" tool window
 2. Right click on the `src` folder 
 3. Select "New" -> "Servlet"
 
-## Add the servlet definition and mapping to the web.xml
+#### Add the servlet definition and mapping to the web.xml
 1. Navigate to `web.xml`
 2. Insert the servlet definition and mapping inside the `web-app` tags
 
