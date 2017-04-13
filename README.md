@@ -51,10 +51,35 @@ You have downloaded a zip file with the binary distribution of Tomcat. Unzip the
 ### Build the project
 First we need to select all artifacts that will be used to create the .war file that will be deployed to the Tomcat server.
 
-1. Within the IntelliJ IDE, right click on the root of the project in the "Project" view on the left side of the editor
+1. Within the IntelliJ IDE, right click on the root of the project in the "Project" tool window on the left side of the editor
 2. Select "Open Module Settings"
 3. Select "Artifacts" from the left panel
 4. Select the "+" on top of the center panel
 5. Select the "Web Application: Archive" and select the option for our project
 6. Make sure that the "Include in project build" checkbox for our archive is selected
 7. Click "Apply" and "Done"
+
+### Create new servlet
+
+## Create servlet class file
+1. Navigate to the `src` folder in the "Project" tool window
+2. Right click on the `src` folder 
+3. Select "New" -> "Servlet"
+
+## Add the servlet definition and mapping to the web.xml
+1. Navigate to `web.xml`
+2. Insert the servlet definition and mapping inside the `web-app` tags
+
+**Example:**
+```xml
+    <servlet>
+        <servlet-name>ServletName</servlet-name>
+        <servlet-class>ServletName</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletName</servlet-name>
+        <url-pattern>/ServletName</url-pattern>
+    </servlet-mapping>
+```
+
