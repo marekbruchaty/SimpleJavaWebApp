@@ -61,12 +61,14 @@ First we need to select all artifacts that will be used to create the .war file 
 
 ### Deploy the WAR file to Tomcat
 1. Build the project from IntelliJ
-2. Navigate to the directory `YourProject/out/artifacts/YourProject_war`
+2. Navigate to the directory `SimpleJavaWebApp_war/out/artifacts/SimpleJavaWebApp_war`
 3. Copy the war file to the `Tomcat/webapps` directory
 
 ### Start the Tomcat server
 1. Navigate to `Tomcat/bin`
 2. Execute the `startup.sh` script for Mac or Linux or `startup.bat` script for Windows
+
+The application can be accesed at http://localhost:8080/SimpleJavaWebApp_war/
 
 ### Create new servlet
 
