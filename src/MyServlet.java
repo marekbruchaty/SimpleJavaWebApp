@@ -19,7 +19,7 @@ public class MyServlet extends javax.servlet.http.HttpServlet {
             writer.println("<!DOCTYPE html><html>");
             writer.println("<head>");
             writer.println("<meta charset=\"UTF-8\" />");
-            writer.println("<title>MyServlet.java:doGet(): Servlet code!</title>");
+            writer.println("<title>MyServlet using doGet() to generate simple website</title>");
             writer.println("</head>");
             writer.println("<body>");
 

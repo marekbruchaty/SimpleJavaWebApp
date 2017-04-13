@@ -13,4 +13,15 @@
         <servlet-name>MyServlet</servlet-name>
         <url-pattern>/MyServlet</url-pattern>
     </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ServletForm</servlet-name>
+        <servlet-class>ServletForm</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletForm</servlet-name>
+        <url-pattern>/ServletForm</url-pattern>
+    </servlet-mapping>
 </web-app>

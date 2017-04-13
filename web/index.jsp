@@ -12,6 +12,14 @@
   </head>
   <body>
     <h1>Simple Java Web App Demo</h1>
-    <p>To invoke a simple java servlet click <a href="MyServlet">here</a></p>
+    <p>To invoke a simple Java servlet click <a href="MyServlet">here</a></p>
+    <p>To invoke Java servlet and pass data to it fill the form below and hit the "Submit" button.</p>
+    <br/>
+    <form action="ServletForm" method="GET">
+      First Name: <input type="text" name="first_name">
+      <br />
+      Last Name: <input type="text" name="last_name" />
+      <input type="submit" value="Submit" />
+    </form>
   </body>
 </html>
