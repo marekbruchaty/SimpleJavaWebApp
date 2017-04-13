@@ -5,23 +5,23 @@
          version="3.1">
 
     <servlet>
-        <servlet-name>MyServlet</servlet-name>
-        <servlet-class>MyServlet</servlet-class>
+        <servlet-name>SimpleServlet</servlet-name>
+        <servlet-class>SimpleServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>MyServlet</servlet-name>
-        <url-pattern>/MyServlet</url-pattern>
+        <servlet-name>SimpleServlet</servlet-name>
+        <url-pattern>/SimpleServlet</url-pattern>
     </servlet-mapping>
 
 
     <servlet>
-        <servlet-name>ServletForm</servlet-name>
-        <servlet-class>ServletForm</servlet-class>
+        <servlet-name>FormServlet</servlet-name>
+        <servlet-class>FormServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>ServletForm</servlet-name>
-        <url-pattern>/ServletForm</url-pattern>
+        <servlet-name>FormServlet</servlet-name>
+        <url-pattern>/FormServlet</url-pattern>
     </servlet-mapping>
 </web-app>
