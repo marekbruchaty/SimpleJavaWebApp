@@ -12,7 +12,9 @@
   </head>
   <body>
     <h1>Simple Java Web App Demo</h1>
+    <h2>Example #1 - Generate website using servlet</h2>
     <p>To invoke a simple Java servlet click <a href="SimpleServlet">here</a></p>
+    <h2>Example #2 - Pass data to servlet</h2>
     <p>To invoke Java servlet and pass data to it fill the form below and hit the "Submit" button.</p>
     <br/>
     <form action="FormServlet" method="POST">
@@ -21,5 +23,7 @@
       Last Name: <input type="text" name="last_name" />
       <input type="submit" value="Submit" />
     </form>
+    <h2>Example #3 - Access website with visitor count tracking</h2>
+    <p>To invoke the counting servlet click <a href="CounterServlet">here</a></p>
   </body>
 </html>

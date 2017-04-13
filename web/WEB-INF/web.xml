@@ -24,4 +24,14 @@
         <servlet-name>FormServlet</servlet-name>
         <url-pattern>/FormServlet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CounterServlet</servlet-name>
+        <servlet-class>CounterServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CounterServlet</servlet-name>
+        <url-pattern>/CounterServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
