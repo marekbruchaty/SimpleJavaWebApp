@@ -47,3 +47,14 @@ You have downloaded a zip file with the binary distribution of Tomcat. Unzip the
 6. Click "Next"
 7. Enter project name. f.e.: "SimpleJavaWebApp"
 8. Select "Finish"
+
+### Build the project
+First we need to select all artifacts that will be used to create the .war file that will be deployed to the Tomcat server.
+
+1. Within the IntelliJ IDE, right click on the root of the project in the "Project" view on the left side of the editor
+2. Select "Open Module Settings"
+3. Select "Artifacts" from the left panel
+4. Select the "+" on top of the center panel
+5. Select the "Web Application: Archive" and select the option for our project
+6. Make sure that the "Include in project build" checkbox for our archive is selected
+7. Click "Apply" and "Done"
