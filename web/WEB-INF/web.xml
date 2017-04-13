@@ -34,4 +34,14 @@
         <servlet-name>CounterServlet</servlet-name>
         <url-pattern>/CounterServlet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CounterViewServlet</servlet-name>
+        <servlet-class>CounterViewServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CounterViewServlet</servlet-name>
+        <url-pattern>/CounterViewServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
