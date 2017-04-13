@@ -94,3 +94,9 @@ The application can be accesed at http://localhost:8080/SimpleJavaWebApp_war/
     </servlet-mapping>
 ```
 
+### Exercises
+
+[Exercise #1](https://github.com/marekbruchaty/SimpleJavaWebApp/commit/642c1876d9fb20d35465e3f248a0e35ded795ed0)
+[Exercise #2](https://github.com/marekbruchaty/SimpleJavaWebApp/commit/18b15260c0d095414511352e1d6ae767b980f637)
+[Exercise #3](https://github.com/marekbruchaty/SimpleJavaWebApp/commit/675235d24de288d169f955b89cacabc1de557c63)
+[Exercise #4](https://github.com/marekbruchaty/SimpleJavaWebApp/commit/26a273a614e51cc20a6682936ba4739c6357d99c)
